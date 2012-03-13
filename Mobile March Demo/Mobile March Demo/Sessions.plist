@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Titles</key>
+	<array>
+		<string>9:20 a.m. - 3D Programming for iOS: What is OpenGL ES and how does it fit into the Apple-verse</string>
+		<string>10:40 a.m. - Developing an Android RESTful Client App</string>
+		<string>12:00 noon - Lunch Discussion</string>
+		<string>1:00 p.m. - Windows Phone 7: From Zero to App</string>
+		<string>2:20 p.m. - Android UI Patterns</string>
+		<string>3:40 p.m. - iOS / Windows Phone Showdown</string>
+		<string>4:45 p.m. - Cocktails</string>
+	</array>
+	<key>Presenters</key>
+	<array>
+		<string>Robert Altman</string>
+		<string>Jeremy Haberman &amp; Brad Armstrong</string>
+		<string>Peter Pascale</string>
+		<string>Damon Allison</string>
+		<string>Vladan Pulec</string>
+		<string>Jeff Brand &amp; Rory Lonergan</string>
+		<string>Captain Morgan</string>
+	</array>
+	<key>Details</key>
+	<array>
+		<string>Are you interested in integrating 3D graphics in your applications, writing 3D games, or just learning about 3D development? Robert Altman will introduce you to important 3D concepts and tools.</string>
+		<string>Based on a Google I/O talk that was short on code, Jeremy Haberman and Brad Armstrong guide this presentation that provides it by walking through and providing an example app that fully implements the concepts.</string>
+		<string>Peter Pascale presents the annual landscape of mobile: A local mobile industry curated presentation.</string>
+		<string>Fast paced but focused, Damon Allison will offer a solid foundation to Windows Phone 7.  Creating a Windows Phone 7 application using many API’s found in Windows Phone 7.5 and comparing and contrasting Windows Phone’s Metro UI with iOS and Android are just some of the highlights</string>
+		<string>Vladan Pulec covers some major UI patterns like ActionBar, Multi-Pane layout, etc., gives examples, and provides a coding demo. This is for Android mobile developers with some prior knowledge of the platform.</string>
+		<string>This year iOS takes on an up-and-comer. Jeff Brand &amp; Rory Lonergan  present this battle of the platforms and highlight developing differences…good and bad.</string>
+		<string>Have a drink and discuss mobile technology and trends with friends new and old.</string>
+	</array>
+</dict>
+</plist>
