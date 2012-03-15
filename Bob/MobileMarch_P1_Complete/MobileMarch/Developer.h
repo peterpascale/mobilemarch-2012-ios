@@ -2,8 +2,8 @@
 //  Developer.h
 //  MobileMarch
 //
-//  Created by Bob McCune on 3/15/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Developer on 3/16/12.
+//  Copyright (c) 2012 TapHarmonic, LLC. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

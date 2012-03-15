@@ -67,10 +67,10 @@
 		C46249671512403800619BD6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C462497B151250EF00619BD6 /* Session.h */,
-				C462497C151250EF00619BD6 /* Session.m */,
 				C46249781512449B00619BD6 /* Developer.h */,
 				C46249791512449B00619BD6 /* Developer.m */,
+				C462497B151250EF00619BD6 /* Session.h */,
+				C462497C151250EF00619BD6 /* Session.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -78,9 +78,9 @@
 		C46249691512404200619BD6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C46249711512408F00619BD6 /* MainViewController.xib */,
 				C477B8D315123E80009F8600 /* MainViewController.h */,
 				C477B8D415123E80009F8600 /* MainViewController.m */,
+				C46249711512408F00619BD6 /* MainViewController.xib */,
 				C46249731512435000619BD6 /* ModalViewController.h */,
 				C46249741512435000619BD6 /* ModalViewController.m */,
 				C46249751512435000619BD6 /* ModalViewController.xib */,
@@ -130,9 +130,9 @@
 			children = (
 				C46249691512404200619BD6 /* Controllers */,
 				C46249671512403800619BD6 /* Models */,
+				C477B8C815123E80009F8600 /* Supporting Files */,
 				C477B8D015123E80009F8600 /* AppDelegate.h */,
 				C477B8D115123E80009F8600 /* AppDelegate.m */,
-				C477B8C815123E80009F8600 /* Supporting Files */,
 			);
 			path = MobileMarch;
 			sourceTree = "<group>";
@@ -141,9 +141,9 @@
 			isa = PBXGroup;
 			children = (
 				C462496A1512404C00619BD6 /* Images */,
-				C477B8C915123E80009F8600 /* MobileMarch-Info.plist */,
 				C477B8CA15123E80009F8600 /* InfoPlist.strings */,
 				C477B8CD15123E80009F8600 /* main.m */,
+				C477B8C915123E80009F8600 /* MobileMarch-Info.plist */,
 				C477B8CF15123E80009F8600 /* MobileMarch-Prefix.pch */,
 			);
 			name = "Supporting Files";
