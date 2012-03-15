@@ -15,6 +15,9 @@
 		C477B8D215123E80009F8600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C477B8D115123E80009F8600 /* AppDelegate.m */; };
 		C477B8D515123E80009F8600 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C477B8D415123E80009F8600 /* MainViewController.m */; };
 		C477B8D815123E80009F8600 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C477B8D615123E80009F8600 /* MainViewController.xib */; };
+		C4DCDFB01512691E009E2665 /* greenButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DCDFAD1512691E009E2665 /* greenButton@2x.png */; };
+		C4DCDFB11512691E009E2665 /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DCDFAE1512691E009E2665 /* greenButton.png */; };
+		C4DCDFB21512691E009E2665 /* mmlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DCDFAF1512691E009E2665 /* mmlogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		C477B8D315123E80009F8600 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		C477B8D415123E80009F8600 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		C477B8D715123E80009F8600 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		C4DCDFAD1512691E009E2665 /* greenButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButton@2x.png"; sourceTree = "<group>"; };
+		C4DCDFAE1512691E009E2665 /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
+		C4DCDFAF1512691E009E2665 /* mmlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mmlogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,12 +96,23 @@
 		C477B8C815123E80009F8600 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C4DCDFAB15126911009E2665 /* Images */,
 				C477B8C915123E80009F8600 /* MobileMarch-Info.plist */,
 				C477B8CA15123E80009F8600 /* InfoPlist.strings */,
 				C477B8CD15123E80009F8600 /* main.m */,
 				C477B8CF15123E80009F8600 /* MobileMarch-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4DCDFAB15126911009E2665 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C4DCDFAD1512691E009E2665 /* greenButton@2x.png */,
+				C4DCDFAE1512691E009E2665 /* greenButton.png */,
+				C4DCDFAF1512691E009E2665 /* mmlogo.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +167,9 @@
 			files = (
 				C477B8CC15123E80009F8600 /* InfoPlist.strings in Resources */,
 				C477B8D815123E80009F8600 /* MainViewController.xib in Resources */,
+				C4DCDFB01512691E009E2665 /* greenButton@2x.png in Resources */,
+				C4DCDFB11512691E009E2665 /* greenButton.png in Resources */,
+				C4DCDFB21512691E009E2665 /* mmlogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +294,7 @@
 				C477B8DD15123E80009F8600 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
