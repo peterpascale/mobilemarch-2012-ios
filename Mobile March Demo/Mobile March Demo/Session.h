@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+/// Model object that represents a Mobile March session. Session objects are created
+/// in SessionsViewController's viewDidLoad method based on data in Sessions.plist. The
+/// objects are used to display info in the SessionsViewController and DetailViewController.
+///
 @interface Session : NSObject
 
 @property (nonatomic, strong) NSString *title;

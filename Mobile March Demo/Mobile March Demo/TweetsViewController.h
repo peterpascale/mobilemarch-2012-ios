@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+/// Displays a list of tweets related to Mobile March. Tweets are loaded via the iOS 5
+/// Twitter Framework.
+///
 @interface TweetsViewController : UITableViewController
 
+/// An array that is populated with tweets via a TWRequest object. The initial request is
+/// started in viewDidLoad.
+///
 @property (nonatomic, strong) NSArray *tweets;
 
 @end

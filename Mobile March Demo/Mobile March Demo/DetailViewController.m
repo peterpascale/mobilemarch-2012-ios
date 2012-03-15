@@ -9,7 +9,7 @@
 #import "DetailViewController.h"
 
 static CGFloat const DetailLabelWidth = 280.0;
-static CGFloat const DetailLabelPadding = 18.0;
+static CGFloat const DetailLabelVerticalPadding = 18.0;
 
 @implementation DetailViewController
 
@@ -49,10 +49,11 @@ static CGFloat const DetailLabelPadding = 18.0;
             break;
     }
 
+    // Note: this won't work in landscape, because the label's width will be bigger!
     CGSize maxSize = CGSizeMake(DetailLabelWidth, CGFLOAT_MAX);
     CGSize textSize = [label.text sizeWithFont:label.font constrainedToSize:maxSize lineBreakMode:label.lineBreakMode];
 
-    return textSize.height + DetailLabelPadding;
+    return textSize.height + DetailLabelVerticalPadding;
 }
 
 #pragma mark - UIViewController methods
