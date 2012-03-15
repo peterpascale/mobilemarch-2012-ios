@@ -59,14 +59,13 @@
 						<string key="NSFrame">{{74, 349}, {173, 45}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUITitleShadowOffset">{2, 2}</string>
+						<string key="IBUITitleShadowOffset">{1, 1}</string>
 						<string key="IBUINormalTitle">About</string>
 						<object class="NSColor" key="IBUIHighlightedTitleColor" id="884566850">
 							<int key="NSColorSpace">3</int>
@@ -76,21 +75,21 @@
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC45Njg2Mjc0NTEgMC45Njg2Mjc0NTEgMC45Njg2Mjc0NTEAA</bytes>
 						</object>
-						<object class="NSColor" key="IBUINormalTitleShadowColor" id="209945386">
+						<object class="NSColor" key="IBUINormalTitleShadowColor" id="608136276">
 							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MC41AA</bytes>
+							<bytes key="NSWhite">MC4zMzMzMzMzMzMzAA</bytes>
 						</object>
 						<object class="NSCustomResource" key="IBUINormalBackgroundImage" id="590347728">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">greenButton.png</string>
 						</object>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="621578303">
+						<object class="IBUIFontDescription" key="IBUIFontDescription" id="115460233">
 							<int key="type">2</int>
-							<double key="pointSize">22</double>
+							<double key="pointSize">20</double>
 						</object>
-						<object class="NSFont" key="IBUIFont" id="136658258">
+						<object class="NSFont" key="IBUIFont" id="733266038">
 							<string key="NSName">Helvetica-Bold</string>
-							<double key="NSSize">22</double>
+							<double key="NSSize">20</double>
 							<int key="NSfFlags">16</int>
 						</object>
 					</object>
@@ -107,17 +106,17 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUITitleShadowOffset">{2, 2}</string>
+						<string key="IBUITitleShadowOffset">{1, 1}</string>
 						<string key="IBUINormalTitle">Sessions</string>
 						<reference key="IBUIHighlightedTitleColor" ref="884566850"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC45Njg2Mjc0NTEgMC45Njg2Mjc0NTEgMC45Njg2Mjc0NTEAA</bytes>
 						</object>
-						<reference key="IBUINormalTitleShadowColor" ref="209945386"/>
+						<reference key="IBUINormalTitleShadowColor" ref="608136276"/>
 						<reference key="IBUINormalBackgroundImage" ref="590347728"/>
-						<reference key="IBUIFontDescription" ref="621578303"/>
-						<reference key="IBUIFont" ref="136658258"/>
+						<reference key="IBUIFontDescription" ref="115460233"/>
+						<reference key="IBUIFont" ref="733266038"/>
 					</object>
 					<object class="IBUIButton" id="662954386">
 						<reference key="NSNextResponder" ref="774585933"/>
@@ -132,17 +131,17 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<int key="IBUIButtonType">1</int>
-						<string key="IBUITitleShadowOffset">{2, 2}</string>
+						<string key="IBUITitleShadowOffset">{1, 1}</string>
 						<string key="IBUINormalTitle">Tweets</string>
 						<reference key="IBUIHighlightedTitleColor" ref="884566850"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC45Njg2Mjc0NTEgMC45Njg2Mjc0NTEgMC45Njg2Mjc0NTEAA</bytes>
 						</object>
-						<reference key="IBUINormalTitleShadowColor" ref="209945386"/>
+						<reference key="IBUINormalTitleShadowColor" ref="608136276"/>
 						<reference key="IBUINormalBackgroundImage" ref="590347728"/>
-						<reference key="IBUIFontDescription" ref="621578303"/>
-						<reference key="IBUIFont" ref="136658258"/>
+						<reference key="IBUIFontDescription" ref="115460233"/>
+						<reference key="IBUIFont" ref="733266038"/>
 					</object>
 				</array>
 				<string key="NSFrame">{{0, 20}, {320, 460}}</string>
