@@ -8,97 +8,63 @@
 
 #import "DetailViewController.h"
 
-static CGFloat const DetailCellWidth = 280.0;
-static CGFloat const DetailCellFontSize = 17.0;
-static CGFloat const DetailCellVerticalPadding = 10.0;
-static UILineBreakMode const DetailCellLineBreakMode = UILineBreakModeWordWrap;
-static UIFont *DetailCellFont;
+static CGFloat const DetailLabelWidth = 280.0;
+static CGFloat const DetailLabelPadding = 18.0;
 
 @implementation DetailViewController
 
 @synthesize session;
 
+@synthesize titleLabel;
+@synthesize timeLabel;
+@synthesize presenterLabel;
+@synthesize detailsLabel;
+
 #pragma mark - UITableViewDataSource methods
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    return 3;
-}
+// UITableViewDataSource methods? We don't need no stinking UITableViewDataSource methods.
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    return 1;
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    static NSString *CellIdentifier = @"DetailCell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-
-    switch (indexPath.section)
-    {
-        case 0:
-            cell.textLabel.text = session.title;
-            break;
-
-        case 1:
-            cell.textLabel.text = session.presenter;
-            break;
-
-        case 2:
-            cell.textLabel.text = session.details;
-            break;
-    }
-
-    return cell;
-}
-
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
-{
-    switch (section)
-    {
-        case 0:
-            return @"Title";
-
-        case 1:
-            return @"Presenter";
-
-        case 2:
-            return @"Description";
-
-        default:
-            return nil;
-    }
-}
+#pragma mark - UITableViewDelegate methods
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *text = nil;
+    UILabel *label = nil;
 
     switch (indexPath.section)
     {
         case 0:
-            text = session.title;
+            label = self.titleLabel;
             break;
 
         case 1:
-            text = session.presenter;
+            label = self.timeLabel;
             break;
 
         case 2:
-            text = session.details;
+            label = self.presenterLabel;
+            break;
+
+        case 3:
+            label = self.detailsLabel;
             break;
     }
 
-    if (DetailCellFont == nil)
-    {
-        DetailCellFont = [UIFont boldSystemFontOfSize:DetailCellFontSize];
-    }
+    CGSize maxSize = CGSizeMake(DetailLabelWidth, CGFLOAT_MAX);
+    CGSize textSize = [label.text sizeWithFont:label.font constrainedToSize:maxSize lineBreakMode:label.lineBreakMode];
 
-    CGSize maxSize = CGSizeMake(DetailCellWidth, CGFLOAT_MAX);
-    CGSize textSize = [text sizeWithFont:DetailCellFont constrainedToSize:maxSize lineBreakMode:DetailCellLineBreakMode];
+    return textSize.height + DetailLabelPadding;
+}
 
-    return textSize.height + DetailCellVerticalPadding * 2.0;
+#pragma mark - UIViewController methods
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+
+    self.titleLabel.text = self.session.title;
+    self.timeLabel.text = self.session.time;
+    self.presenterLabel.text = self.session.presenter;
+    self.detailsLabel.text = self.session.details;
 }
 
 @end

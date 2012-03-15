@@ -13,5 +13,6 @@
 @synthesize title;
 @synthesize presenter;
 @synthesize details;
+@synthesize time;
 
 @end

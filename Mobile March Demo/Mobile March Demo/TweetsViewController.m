@@ -32,7 +32,7 @@
 
     NSDictionary *tweet = [self.tweets objectAtIndex:indexPath.row];
     cell.textLabel.text = [tweet objectForKey:@"text"];
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"@%@ (%@)", [tweet objectForKey:@"from_user"], [tweet objectForKey:@"from_user_name"]];
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ (@%@)", [tweet objectForKey:@"from_user_name"], [tweet objectForKey:@"from_user"]];
 
     return cell;
 }
@@ -48,7 +48,7 @@
         @"100", @"rpp",
         nil];
 
-	TWRequest *request = [[TWRequest alloc] initWithURL:[NSURL URLWithString:@"http://search.twitter.com/search.json"] parameters:parameters requestMethod:TWRequestMethodGET];
+    TWRequest *request = [[TWRequest alloc] initWithURL:[NSURL URLWithString:@"http://search.twitter.com/search.json"] parameters:parameters requestMethod:TWRequestMethodGET];
 
     [request performRequestWithHandler:^(NSData *responseData, NSHTTPURLResponse *urlResponse, NSError *error)
     {
@@ -66,6 +66,10 @@
             {
                 NSLog(@"Twitter JSON parsing error %@", JSONError);
             }
+        }
+        else if ([urlResponse statusCode] == 420)
+        {
+            NSLog(@"Twitter says we're doing too many searches! %@", error);
         }
         else
         {

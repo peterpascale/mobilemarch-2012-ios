@@ -4,13 +4,13 @@
 <dict>
 	<key>Titles</key>
 	<array>
-		<string>9:20 a.m. - 3D Programming for iOS: What is OpenGL ES and how does it fit into the Apple-verse</string>
-		<string>10:40 a.m. - Developing an Android RESTful Client App</string>
-		<string>12:00 noon - Lunch Discussion</string>
-		<string>1:00 p.m. - Windows Phone 7: From Zero to App</string>
-		<string>2:20 p.m. - Android UI Patterns</string>
-		<string>3:40 p.m. - iOS / Windows Phone Showdown</string>
-		<string>4:45 p.m. - Cocktails</string>
+		<string>3D Programming for iOS: What is OpenGL ES and how does it fit into the Apple-verse</string>
+		<string>Developing an Android RESTful Client App</string>
+		<string>Lunch Discussion</string>
+		<string>Windows Phone 7: From Zero to App</string>
+		<string>Android UI Patterns</string>
+		<string>iOS / Windows Phone Showdown</string>
+		<string>Cocktails</string>
 	</array>
 	<key>Presenters</key>
 	<array>
@@ -31,6 +31,16 @@
 		<string>Vladan Pulec covers some major UI patterns like ActionBar, Multi-Pane layout, etc., gives examples, and provides a coding demo. This is for Android mobile developers with some prior knowledge of the platform.</string>
 		<string>This year iOS takes on an up-and-comer. Jeff Brand &amp; Rory Lonergan  present this battle of the platforms and highlight developing differences…good and bad.</string>
 		<string>Have a drink and discuss mobile technology and trends with friends new and old.</string>
+	</array>
+	<key>Times</key>
+	<array>
+		<string>9:20 a.m.</string>
+		<string>10:40 a.m.</string>
+		<string>12:00 noon</string>
+		<string>1:00 p.m.</string>
+		<string>2:20 p.m.</string>
+		<string>3:40 p.m.</string>
+		<string>4:45 p.m.</string>
 	</array>
 </dict>
 </plist>

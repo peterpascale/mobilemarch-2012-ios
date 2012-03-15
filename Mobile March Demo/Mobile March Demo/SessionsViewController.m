@@ -16,11 +16,6 @@
 
 #pragma mark - UITableViewDataSource methods
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    return 1;
-}
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.sessions.count;
@@ -33,7 +28,7 @@
 
     Session *session = [self.sessions objectAtIndex:indexPath.row];
     cell.textLabel.text = session.title;
-    cell.detailTextLabel.text = session.presenter;
+    cell.detailTextLabel.text = session.time;
     
     return cell;
 }
@@ -63,6 +58,7 @@
     NSArray *titles = [sessionsData objectForKey:@"Titles"];
     NSArray *presenters = [sessionsData objectForKey:@"Presenters"];
     NSArray *details = [sessionsData objectForKey:@"Details"];
+    NSArray *times = [sessionsData objectForKey:@"Times"];
 
     NSMutableArray *sessionObjects = [NSMutableArray arrayWithCapacity:titles.count];
 
@@ -72,6 +68,7 @@
         session.title = [titles objectAtIndex:index];
         session.presenter = [presenters objectAtIndex:index];
         session.details = [details objectAtIndex:index];
+        session.time = [times objectAtIndex:index];
 
         [sessionObjects addObject:session];
     }
