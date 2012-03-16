@@ -25,7 +25,7 @@
 //    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 //
 //    // Configure the cell here.
-//    
+//
 //    return cell;
 //}
 
@@ -41,15 +41,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-//    // Create a single session to start.
-//    Session *session = [[Session alloc] init];
-//    session.title = @"Your Session Title Here";
-//    session.presenter = @"Your Name Here";
-//
-//    self.sessions = [NSArray arrayWithObject:session];
-
-
 
 //    // Load sessions from the Sessions.plist.
 //    NSString *sessionsPath = [[NSBundle mainBundle] pathForResource:@"Sessions" ofType:@"plist"];

@@ -29,7 +29,7 @@
     Session *session = [self.sessions objectAtIndex:indexPath.row];
     cell.textLabel.text = session.title;
     cell.detailTextLabel.text = session.time;
-    
+
     return cell;
 }
 
@@ -45,12 +45,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-//    Session *session = [[Session alloc] init];
-//    session.title = @"Your Session Title Here";
-//    session.presenter = @"Your Name Here";
-//
-//    self.sessions = [NSArray arrayWithObject:session];
 
     NSString *sessionsPath = [[NSBundle mainBundle] pathForResource:@"Sessions" ofType:@"plist"];
     NSDictionary *sessionsData = [NSDictionary dictionaryWithContentsOfFile:sessionsPath];
