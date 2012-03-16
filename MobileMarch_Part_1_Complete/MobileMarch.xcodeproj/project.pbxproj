@@ -48,8 +48,8 @@
 		C477B8D115123E80009F8600 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C477B8D315123E80009F8600 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		C477B8D415123E80009F8600 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C47C64151513AEA600E07738 /* View Controller Exercise.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "View Controller Exercise.pdf"; sourceTree = "<group>"; };
 		C4B2462815130B85006E59C2 /* Objective-C Exercise.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Objective-C Exercise.pdf"; sourceTree = "<group>"; };
-		C4CF4CE0151318810098D3F4 /* View Controller Exercise.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "View Controller Exercise.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,8 +155,8 @@
 		C4B2462715130B85006E59C2 /* Exercises */ = {
 			isa = PBXGroup;
 			children = (
+				C47C64151513AEA600E07738 /* View Controller Exercise.pdf */,
 				C4B2462815130B85006E59C2 /* Objective-C Exercise.pdf */,
-				C4CF4CE0151318810098D3F4 /* View Controller Exercise.pdf */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";

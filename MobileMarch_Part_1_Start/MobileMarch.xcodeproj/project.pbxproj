@@ -23,7 +23,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C46C482F1513185300C9B34E /* View Controller Exercise.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "View Controller Exercise.pdf"; sourceTree = "<group>"; };
 		C477B8BD15123E80009F8600 /* MobileMarch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileMarch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C477B8C115123E80009F8600 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C477B8C315123E80009F8600 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +36,7 @@
 		C477B8D315123E80009F8600 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		C477B8D415123E80009F8600 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		C477B8D715123E80009F8600 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		C4A4A0381513AEC800A1C57C /* View Controller Exercise.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "View Controller Exercise.pdf"; sourceTree = "<group>"; };
 		C4B24617151306CF006E59C2 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
 		C4B24618151306CF006E59C2 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 		C4B24619151306CF006E59C2 /* ModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
@@ -119,8 +119,8 @@
 		C4B2462415130B40006E59C2 /* Exercises */ = {
 			isa = PBXGroup;
 			children = (
+				C4A4A0381513AEC800A1C57C /* View Controller Exercise.pdf */,
 				C4B2462515130B40006E59C2 /* Objective-C Exercise.pdf */,
-				C46C482F1513185300C9B34E /* View Controller Exercise.pdf */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
