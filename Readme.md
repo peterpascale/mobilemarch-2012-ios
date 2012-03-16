@@ -2,7 +2,7 @@
 
 Hello, and welcome to the Mobile March 2012 iOS Training session! The session is divided into two 2-hour parts. Bob McCune will be presenting Part 1, and Sam Kirchmeier will be presenting Part 2.
 
-You can get your hands dirty (recommended!) and code along with us or go directly to the complete apps and follow along in the code.
+You can get your hands dirty with the Starter projects (recommended!) and code along with us or go directly to the Complete projects and follow along in the code.
 
 This repository contains four versions of the same application:
 
