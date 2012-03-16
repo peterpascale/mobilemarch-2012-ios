@@ -15,6 +15,8 @@
 		C477B8D215123E80009F8600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C477B8D115123E80009F8600 /* AppDelegate.m */; };
 		C477B8D515123E80009F8600 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C477B8D415123E80009F8600 /* MainViewController.m */; };
 		C477B8D815123E80009F8600 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C477B8D615123E80009F8600 /* MainViewController.xib */; };
+		C4B2461A151306CF006E59C2 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B24618151306CF006E59C2 /* ModalViewController.m */; };
+		C4B2461B151306CF006E59C2 /* ModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4B24619151306CF006E59C2 /* ModalViewController.xib */; };
 		C4DCDFB01512691E009E2665 /* greenButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DCDFAD1512691E009E2665 /* greenButton@2x.png */; };
 		C4DCDFB11512691E009E2665 /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DCDFAE1512691E009E2665 /* greenButton.png */; };
 		C4DCDFB21512691E009E2665 /* mmlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C4DCDFAF1512691E009E2665 /* mmlogo.png */; };
@@ -34,6 +36,10 @@
 		C477B8D315123E80009F8600 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		C477B8D415123E80009F8600 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		C477B8D715123E80009F8600 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		C4B24617151306CF006E59C2 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		C4B24618151306CF006E59C2 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		C4B24619151306CF006E59C2 /* ModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModalViewController.xib; sourceTree = "<group>"; };
+		C4B2462515130B40006E59C2 /* Objective-C Exercise.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Objective-C Exercise.pdf"; sourceTree = "<group>"; };
 		C4DCDFAD1512691E009E2665 /* greenButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButton@2x.png"; sourceTree = "<group>"; };
 		C4DCDFAE1512691E009E2665 /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
 		C4DCDFAF1512691E009E2665 /* mmlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mmlogo.png; sourceTree = "<group>"; };
@@ -57,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				C477B8C715123E80009F8600 /* MobileMarch */,
+				C4B2462415130B40006E59C2 /* Exercises */,
 				C477B8C015123E80009F8600 /* Frameworks */,
 				C477B8BE15123E80009F8600 /* Products */,
 			);
@@ -88,6 +95,9 @@
 				C477B8D315123E80009F8600 /* MainViewController.h */,
 				C477B8D415123E80009F8600 /* MainViewController.m */,
 				C477B8D615123E80009F8600 /* MainViewController.xib */,
+				C4B24617151306CF006E59C2 /* ModalViewController.h */,
+				C4B24618151306CF006E59C2 /* ModalViewController.m */,
+				C4B24619151306CF006E59C2 /* ModalViewController.xib */,
 				C477B8C815123E80009F8600 /* Supporting Files */,
 			);
 			path = MobileMarch;
@@ -103,6 +113,14 @@
 				C477B8CF15123E80009F8600 /* MobileMarch-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4B2462415130B40006E59C2 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				C4B2462515130B40006E59C2 /* Objective-C Exercise.pdf */,
+			);
+			path = Exercises;
 			sourceTree = "<group>";
 		};
 		C4DCDFAB15126911009E2665 /* Images */ = {
@@ -170,6 +188,7 @@
 				C4DCDFB01512691E009E2665 /* greenButton@2x.png in Resources */,
 				C4DCDFB11512691E009E2665 /* greenButton.png in Resources */,
 				C4DCDFB21512691E009E2665 /* mmlogo.png in Resources */,
+				C4B2461B151306CF006E59C2 /* ModalViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +202,7 @@
 				C477B8CE15123E80009F8600 /* main.m in Sources */,
 				C477B8D215123E80009F8600 /* AppDelegate.m in Sources */,
 				C477B8D515123E80009F8600 /* MainViewController.m in Sources */,
+				C4B2461A151306CF006E59C2 /* ModalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

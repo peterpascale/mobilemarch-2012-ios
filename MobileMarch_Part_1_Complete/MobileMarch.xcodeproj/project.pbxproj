@@ -48,6 +48,7 @@
 		C477B8D115123E80009F8600 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C477B8D315123E80009F8600 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		C477B8D415123E80009F8600 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C4B2462815130B85006E59C2 /* Objective-C Exercise.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Objective-C Exercise.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				C477B8C715123E80009F8600 /* MobileMarch */,
+				C4B2462715130B85006E59C2 /* Exercises */,
 				C477B8C015123E80009F8600 /* Frameworks */,
 				C477B8BE15123E80009F8600 /* Products */,
 			);
@@ -147,6 +149,14 @@
 				C477B8CF15123E80009F8600 /* MobileMarch-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4B2462715130B85006E59C2 /* Exercises */ = {
+			isa = PBXGroup;
+			children = (
+				C4B2462815130B85006E59C2 /* Objective-C Exercise.pdf */,
+			);
+			path = Exercises;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
