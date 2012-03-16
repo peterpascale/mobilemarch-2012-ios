@@ -31,7 +31,7 @@
 
     NSDictionary *tweet = [self.tweets objectAtIndex:indexPath.row];
     cell.textLabel.text = [tweet objectForKey:@"text"];
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"%@ (@%@)", [tweet objectForKey:@"from_user_name"], [tweet objectForKey:@"from_user"]];
+    cell.detailTextLabel.text = [tweet objectForKey:@"from_user"];
 
     return cell;
 }
