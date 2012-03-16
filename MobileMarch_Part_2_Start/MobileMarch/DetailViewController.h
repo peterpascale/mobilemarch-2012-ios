@@ -11,4 +11,13 @@
 
 @interface DetailViewController : UITableViewController
 
+@property (nonatomic, strong) Session *session;
+
+#pragma mark - IBOutlets
+
+@property (nonatomic, strong) IBOutlet UILabel *titleLabel;
+@property (nonatomic, strong) IBOutlet UILabel *timeLabel;
+@property (nonatomic, strong) IBOutlet UILabel *presenterLabel;
+@property (nonatomic, strong) IBOutlet UILabel *detailsLabel;
+
 @end

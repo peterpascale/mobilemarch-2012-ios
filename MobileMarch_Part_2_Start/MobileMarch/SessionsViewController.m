@@ -12,6 +12,8 @@
 
 @implementation SessionsViewController
 
+@synthesize sessions = _sessions;
+
 #pragma mark - UITableViewDataSource methods
 
 //- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

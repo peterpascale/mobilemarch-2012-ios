@@ -12,7 +12,7 @@
 
 @implementation SessionsViewController
 
-@synthesize sessions;
+@synthesize sessions = _sessions;
 
 #pragma mark - UITableViewDataSource methods
 

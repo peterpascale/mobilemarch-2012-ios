@@ -11,7 +11,7 @@
 
 @implementation TweetsViewController
 
-@synthesize tweets;
+@synthesize tweets = _tweets;
 
 #pragma mark - UITableViewDataSource methods
 

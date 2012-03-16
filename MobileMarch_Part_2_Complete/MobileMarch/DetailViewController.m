@@ -13,12 +13,11 @@ static CGFloat const DetailLabelVerticalPadding = 18.0;
 
 @implementation DetailViewController
 
-@synthesize session;
-
-@synthesize titleLabel;
-@synthesize timeLabel;
-@synthesize presenterLabel;
-@synthesize detailsLabel;
+@synthesize session = _session;
+@synthesize titleLabel = _titleLabel;
+@synthesize timeLabel = _timeLabel;
+@synthesize presenterLabel = _presenterLabel;
+@synthesize detailsLabel = _detailsLabel;
 
 #pragma mark - UITableViewDataSource methods
 

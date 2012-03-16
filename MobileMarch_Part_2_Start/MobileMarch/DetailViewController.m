@@ -8,10 +8,16 @@
 
 #import "DetailViewController.h"
 
-//static CGFloat const DetailLabelWidth = 280.0;
-//static CGFloat const DetailLabelVerticalPadding = 18.0;
+static CGFloat const DetailLabelWidth = 280.0;
+static CGFloat const DetailLabelVerticalPadding = 18.0;
 
 @implementation DetailViewController
+
+@synthesize session = _session;
+@synthesize titleLabel = _titleLabel;
+@synthesize timeLabel = _timeLabel;
+@synthesize presenterLabel = _presenterLabel;
+@synthesize detailsLabel = _detailsLabel;
 
 #pragma mark - UITableViewDataSource methods
 

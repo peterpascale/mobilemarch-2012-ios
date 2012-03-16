@@ -10,4 +10,6 @@
 
 @interface SessionsViewController : UITableViewController
 
+@property (nonatomic, strong) NSArray *sessions;
+
 @end
