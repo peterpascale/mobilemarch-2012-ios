@@ -23,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C46C482F1513185300C9B34E /* View Controller Exercise.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "View Controller Exercise.pdf"; sourceTree = "<group>"; };
 		C477B8BD15123E80009F8600 /* MobileMarch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileMarch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C477B8C115123E80009F8600 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C477B8C315123E80009F8600 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -119,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				C4B2462515130B40006E59C2 /* Objective-C Exercise.pdf */,
+				C46C482F1513185300C9B34E /* View Controller Exercise.pdf */,
 			);
 			path = Exercises;
 			sourceTree = "<group>";
